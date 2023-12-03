@@ -10,6 +10,13 @@ public class zad501 {
             System.out.println("nie nalezy do żadnego zbioru");
         }
 
+        //sprawdzanie czy należy do części wspólnej
+        boolean isInIntersection = isInIntersection(wrt);
+        if (isInIntersection) {
+            System.out.println("Liczba " + wrt + " należy do części wspólnej zbiorów A, B i C.");
+        } else {
+            System.out.println("Liczba " + wrt + " nie należy do części wspólnej zbiorów A, B i C.");
+        }
 
 
     }

@@ -2,7 +2,7 @@ package secondColloqium.Task10;
 public class Task05 {
     public static void main(String[] args) {
         int num1 = 15;
-        int num2 = 875;
+        int num2 = 8745;
         int num3 = 28;
 
         int max = findMax(num1, num2, num3);
